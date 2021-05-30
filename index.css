@@ -16,17 +16,17 @@ body {
 
 .card {
   display: flex;
-  width: 70%;
-  height: 50%;
-
+  max-width:80%;
+  height: 55%;
 }
 
 .card-text {
-  box-sizing: border-box;
-  width: 51%;
+  width: 55%;
+  max-width: 70%
   height: 100%;
   background: hsl(244, 38%, 16%);
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   font-family: Inter;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,6 @@ body {
 }
 .card-text-features {
   display: flex;
-  /*margin: 70px 0px 40px 0px;*/
   margin-top: 50px;
 }
 li  {
@@ -69,8 +68,10 @@ li  {
   font-size: 20px;
 }
 .card-image {
-  width: 49%;
+  width: 650px;
   height: 100%;
-  background: yellow;
-  border-radius: 5px;
+  background-image: linear-gradient(hsla(277, 64%, 61%,.50),hsl(277, 64%, 61%,.50)), url('./images/image-header-desktop.jpg');
+  background-size: auto;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
