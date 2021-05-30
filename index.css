@@ -1,0 +1,14 @@
+* {
+  /*background: hsl(233, 47%, 7%);*/
+}
+
+.card {
+  margin: 100px;
+  display: flex;
+  background: red;
+
+}
+
+.features {
+  display: flex;
+}
