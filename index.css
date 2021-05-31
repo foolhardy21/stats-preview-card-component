@@ -74,25 +74,52 @@ li  {
   border-bottom-right-radius: 5px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     body {
-      background: green;
+      padding-top: 80px;
+      padding-bottom: 50px;
+      justify-content: center;
+      align-items: flex-start;
     }
   .card {
-    background: yellow;
+    margin-bottom: 20px;
     flex-direction: column-reverse;
-    align-items: center;
     height: 100%;
-    width: 100%;
   }
   .card-image {
+    width: 100%;
     background-image: linear-gradient(hsla(277, 64%, 61%,.50),hsl(277, 64%, 61%,.50)), url('./images/image-header-mobile.jpg');
-    background-size: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
   .card-text {
-    height: 50%;
-
+    width: 88%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
-
+  .card-text-head {
+    text-align: center;
+    margin-right: 40px;
+  }
+  .card-text-head br {
+    display: none;
+  }
+  .card-text-subhead br {
+    display: none;
+  }
+  .card-text-features {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  li {
+    margin-right: 20px;
+    margin-top: 30px;
+  }
 }
