@@ -74,10 +74,11 @@ li  {
   width: 600px;
   height: 100%;
   background-image: linear-gradient(hsla(277, 64%, 61%,.50),hsl(277, 64%, 61%,.50)), url('./images/image-header-desktop.jpg');
-  background-size: 510px 400px;
+  background-size: cover;
   background-repeat: no-repeat;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  background-position: center top;
 }
 
 @media (max-width: 500px) {
