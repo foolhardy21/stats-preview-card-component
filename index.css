@@ -54,6 +54,9 @@ body {
   display: flex;
   margin-top: 50px;
 }
+#feat-list {
+  display: flex;
+}
 li  {
   margin-right: 60px;
   list-style: none;
@@ -120,8 +123,12 @@ li  {
   }
   .card-text-features {
     flex-direction: column;
-    margin: 0px auto;
+    margin: -20px auto;
 
+  }
+  #feat-list {
+    margin-left: -20px;
+    flex-direction: column;
   }
   li {
     margin-right: 20px;
