@@ -32,8 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/foolhardy21/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Site](https://foolhardy21.github.io/stats-preview-card-component/)
 
 ## My process
 
@@ -46,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt the how a responsive site works by varying the viewport size. Along with this I learnt using images as an asset and using color gradient on top of it. Apart from this, I learnt the basics of FlexBox.
+I learnt the how a responsive site works by varying the viewport size. Along with this I learnt using images as an asset and using color gradient on top of it. Apart from this, I learnt the basics of Flex-Box.
 
 ### Useful resources
 
