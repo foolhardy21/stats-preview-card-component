@@ -2,12 +2,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 * {
   box-sizing: border-box;
-  background: black;
-  padding: 5vmax 5vmin;
+}
+body {
+  background: hsl(233, 47%, 7%);
+  padding: 8vmax 5vmin;
+  display: flex;
+  justify-content: center;
+}
+.card-text {
+  background: hsl(244, 38%, 16%);
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  padding-top: 7vmin;
+  padding-left: 8vmin;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+h1 {
+  font-size: 5vmin;
+  color: hsl(0, 0%, 100%);
+  padding-right: 10vmin;
+}
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+p {
+  font-size: 2vmin;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-right: 15vmin;
+}
+.stat {
+  margin-top: 3.5vmin;
+}
+.stat ul{
+  display: flex;
+  padding-left: 0px;
+}
+.stat li{
+  font-size:3vmin;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  list-style: none;
+  margin-right: 3vmax;
+}
+.stat-text {
+  font-size:2vmin;
+  font-weight: normal;
+  color: hsla(0, 0%, 100%,0.6);
+  margin-top: 1vmin;
 }
 .card-image {
-  width: 33vw;
-  height: 50vh;
-  background-image: url('./images/image-header-desktop.jpg');
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 40vw;
+  height: 60vh;
+  background-image: linear-gradient(hsla(277, 64%, 31%, 0.5),hsla(277, 64%, 31%, 0.5)), url('./images/image-header-desktop.jpg');
   background-size: 100% 100%;
+}
+@media (max-width: 1440px) {
+  body {
+    background: brown;
+  }
 }
