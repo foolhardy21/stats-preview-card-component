@@ -60,11 +60,21 @@ p {
   border-bottom-right-radius: 5px;
   width: 40vw;
   height: 60vh;
-  background-image: linear-gradient(hsla(277, 64%, 31%, 0.5),hsla(277, 64%, 31%, 0.5)), url('./images/image-header-desktop.jpg');
+  background-image: linear-gradient(hsla(277, 100%, 25%, 0.5),hsla(277, 100%, 25%, 0.5)), url('./images/image-header-desktop.jpg');
   background-size: 100% 100%;
 }
-@media (max-width: 1440px) {
+@media (max-width: 500px) {
   body {
     background: brown;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .card-image {
+    background-image: linear-gradient(hsla(277, 100%, 25%, 0.5),hsla(277, 100%, 25%, 0.5)), url('./images/image-header-mobile.jpg');
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 80vw;
+    height: 40vh;
   }
 }
