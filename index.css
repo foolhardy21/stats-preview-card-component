@@ -5,18 +5,18 @@
 }
 body {
   background: hsl(233, 47%, 7%);
-  padding: 8vmax 5vmin;
+  padding: 8vmax 10vmax;
   display: flex;
   justify-content: center;
 }
 .card-text {
   background: hsl(244, 38%, 16%);
-  width: 40vw;
-  height: 60vh;
+  /*width: 40vw;
+  height: 60vh;*/
   display: flex;
   flex-direction: column;
   font-family: Inter;
-  padding-top: 7vmin;
+  padding-top: 5vmin;
   padding-left: 8vmin;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -24,22 +24,23 @@ body {
 h1 {
   font-size: 5vmin;
   color: hsl(0, 0%, 100%);
-  padding-right: 10vmin;
+  padding-right: 5vmin;
 }
 h1 span {
   color: hsl(277, 64%, 61%);
 }
 p {
-  font-size: 2vmin;
+  font-size: 1vmax;
   color: hsla(0, 0%, 100%, 0.75);
-  padding-right: 15vmin;
+  padding-right: 10vmin;
+  line-height: 25px;
 }
 .stat {
   margin-top: 3.5vmin;
 }
 .stat ul{
   display: flex;
-  padding-left: 0px;
+  padding-left: 0;
 }
 .stat li{
   font-size:3vmin;
@@ -47,7 +48,7 @@ p {
   text-transform: uppercase;
   color: hsl(0, 0%, 100%);
   list-style: none;
-  margin-right: 3vmax;
+  margin-right: 5vmax;
 }
 .stat-text {
   font-size:2vmin;
@@ -58,10 +59,15 @@ p {
 .card-image {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  width: 40vw;
+  width: 60vw;
   height: 60vh;
   background-image: linear-gradient(hsla(277, 100%, 25%, 0.5),hsla(277, 100%, 25%, 0.5)), url('./images/image-header-desktop.jpg');
   background-size: 100% 100%;
+}
+@media (max-width: 1440px) {
+  body{
+    background: brown;
+  }
 }
 @media (max-width: 500px) {
   body {
